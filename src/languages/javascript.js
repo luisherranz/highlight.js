@@ -188,7 +188,7 @@ function(hljs) {
             skip: true,
           },
           { // E4X / JSX
-            begin: /</, end: /(\/[A-Za-z0-9\\._:-]+|[A-Za-z0-9\\._:-]+\/)>/,
+            begin: /</, end: /(\/[A-Za-z0-9\\._:-]*|[A-Za-z0-9\\._:-]*\/)>/,
             subLanguage: 'xml',
             contains: [
               { begin: /<[A-Za-z0-9\\._:-]+\s*\/>/, skip: true },
